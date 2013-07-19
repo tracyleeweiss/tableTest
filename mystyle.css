@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table {
+  background-color: grey;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+	width: 800px;
+	margin: auto;
+	text-align: center; 
+	margin-bottom: 30px;
+}
+table tr  {
+		background-color: #5e5e5e;
+}
+.top-header :first-child {
+		border-top-left-radius: 20px;	
+}
+.top-header :last-child {
+		border-top-right-radius: 20px;
+}
+thead {
+	cursor: pointer;
+}
+thead tr .header {
+  padding-bottom: 5px;
+	color: #fff;
+	background: #aaaaaa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #aaaaaa 0%, #a0a0a0 16%, #878787 39%, #757575 69%, #686868 86%, #5e5e5e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(16%,#a0a0a0), color-stop(39%,#878787), color-stop(69%,#757575), color-stop(86%,#686868), color-stop(100%,#5e5e5e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #aaaaaa 0%,#a0a0a0 16%,#878787 39%,#757575 69%,#686868 86%,#5e5e5e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #aaaaaa 0%,#a0a0a0 16%,#878787 39%,#757575 69%,#686868 86%,#5e5e5e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #aaaaaa 0%,#a0a0a0 16%,#878787 39%,#757575 69%,#686868 86%,#5e5e5e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #aaaaaa 0%,#a0a0a0 16%,#878787 39%,#757575 69%,#686868 86%,#5e5e5e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#5e5e5e',GradientType=0 ); /* IE6-9 */
+}
+th {
+		padding: 20px;
+}
+tr {
+	height: 30px;
+}
+.tablesorter {
+	background-color: #CDCDCD;
+	margin: 10px 0 15px;
+	font-size: 10px;
+	width: 100%;
+	text-align: center;
+}
+td:nth-child(1) {
+	background-color: #908FB0;
+	color: #fff;
+}
+.normal-row {
+	background-color: #E8E6E7;
+}
+.alt-row {
+	background-color: #fff;
+}
+img {
+	height: 50px;
+	width: 50px;
+}
+.circle {
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	border: 2px solid grey;
+	margin: 2px 5px 0 5px;
+}
+
